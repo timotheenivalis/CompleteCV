@@ -1,0 +1,187 @@
+\documentclass[a4paper,oneside,10pt]{article} % Default font size and paper size
+
+%\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+%\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+%\usepackage[top=1cm, bottom=1cm, left=0cm, right=2.5cm]{geometry}
+\usepackage[tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm]{geometry}
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\LARGE Timoth\'{e}e \textsc{Bonnet}\par}}
+%\textit{PhD student in evolutionary biology}\bigskip\par}} 
+
+\section*{Personal Data}
+\subsection*{}
+\begin{tabular}{p{4cm} p{11cm}}
+\hfill \textsc{Nationality:} & French\\
+\hfill \textsc{Work address:} & Institute of Evolutionary Biology and Environmental Studies\\ 
+									& University of Z\"{u}rich\\
+									& Winterthurerstrasse 190\\
+									& CH-8057 Z\"{u}rich\\
+									& Switzerland \\
+\hfill \textsc{Phone:} & +41 (0)44 635 47 66\\
+\hfill \textsc{email:} & \href{mailto:timothee.bonnet@ieu.uzh.ch}{timothee.bonnet@ieu.uzh.ch}\\
+\hfill \textsc{Personal page} & \url{http://www.ieu.uzh.ch/staff/phd/bonnet.html} \\
+\hfill \textsc{Languages:} & French (mother tongue), English (fluent), Spanish (basic)
+\end{tabular}
+
+
+\section{Education}
+\begin{tabular}{r|p{11cm}}
+\textsc{Oct 2012 -} \emph{Current} & \textbf{PhD student in Z\"{u}rich evolutionary biology PhD program.}\\
+								& \emph{Individual-level causes and population-level consequences of variation in fitness in an alpine rodent.}\\ 
+								& \footnotesize{Under the supervision of Dr Erik Postma.}\\
+\textit{Courses:} & \\
+\footnotesize{\textsc{May 27-28}th 2013}& NGS for Model and Non-Model Species, by K. Shimizu \& al.\\
+\footnotesize{\textsc{Jun 22-29}th 2013}& Evolutionary Biology Workshop in Guarda, by D. Ebert \& S. Bonhoeffer\\
+\footnotesize{\textsc{Oct 10-11}th 2013}& Workshop on Integral Projection Models, C. Merow \& al.\\
+\footnotesize{\textsc{Oct 14-18}th 2013}& Evolutionary Demography, by D. Levitis \& al.\\
+\footnotesize{\textsc{Jan 13-17}th 2014}& Bayesian Population Analysis using WinBUGS, by M. K\'{e}ry \& M. Schaub\\
+\footnotesize{\textsc{Nov 6-7}th 2014}& Advanced Software Carpentry, by M. D. Robinson \& al.\\
+\footnotesize{\textsc{May 18-19}th 2015}& Advanced NGS, by S. Wider \& H. Lischer\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Sep 2011 - Jun 2012} & \textbf{M.Sc. in evolutionary biology and ecology. University Montpellier II, France.}\\
+\textit{Research project:} & \emph{Neutral processes and biased mitochondrial introgression} at the center for population biology and management (CBGP).\\
+& \footnotesize{Supervised by Drs Rapha\"{e}l Leblois, Pierre-Andr\'{e} Crochet and Fran\c{c}ois Rousset.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Sep 2008 - Sep 2011} & \textbf{B.Sc Biology: National engineering school in biology and agronomy, Montpellier Supagro, France.}\\
+& \footnotesize{Specializations in biodiversity conservation, ecology, phylogeny, population genetics, GIS.}\\
+\textit{Research projects:} & \\
+\footnotesize{\textsc{Jan-Aug 2011}}& \emph{Population dynamics of rodents, and agricultural practices} at Chiz\'{e} Centre for Biological Studies (CEBC), France.\\ 
+																		& \footnotesize{Supervised by Drs Bertrand Gauffre and Vincent Bretagnolle.} \par \\
+\footnotesize{\textsc{Sep-Dec 2010}}&	Centre for Ecological and Evolutionary Synthesis in Oslo, Norway: lab work, genetic data analysis and article redaction. Genetic identification, speciation, hybridization and role of gonosomes in flycatchers and sparrows.\\
+																		& \footnotesize{Supervised by Prof. Glenn-Peter S{\ae}tre.}\par \\
+\footnotesize{\textsc{May-Aug 2010}}& \emph{Meadow birds phenology, conservation and agriculture} at LPO (Birdlife international), in Grenoble, France.
+\end{tabular}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Seminars}
+\subsection*{Invited seminars}
+\begin{itemize}
+\item \textit{Body mass selection in an alpine rodent: does it fluctuate? does it matter?} Radboud Universiteit Nijmegen, the Netherlands, December 4th \textbf{2014}.
+\item \textit{Variation in fitness: proximal and ultimate causes.} CNRS Brunoy, France. October 28th \textbf{2014}.
+\item \textit{Individual-level causes of variation in fitness in an alpine rodent.} IEU, Zurich, September 29th \textbf{2014}.
+\end{itemize}
+\subsection*{Contributed seminars}
+\begin{itemize}
+\item \textit{Successful by chance? The power of mixed models and neutral simulations for the detection of individual fixed heterogeneity in fitness components} GDR Ecological Statistics meeting, Lyon, France, March 12th-13th \textbf{2015}.
+\item \textit{Why voles do not become beavers: indirect relationships between traits and fitness counteract selection for larger individuals in a snow vole population} Poster at Biology15, the Swiss conference on organismic biology, D\"{u}bendorf, Switzerland, February 12th-13th \textbf{2015}.
+\item \textit{Fluctuating selection and genetic gradients on snow vole mass} Wild Animal Models Biennial Meeting, University of St Andrews, U.K. July 21st-25th \textbf{2014}
+\item \textit{Lord of the scree by chance or by merit? Dynamic vs. fixed heterogeneity in an alpine rodent population.} Evolutionary Demography Society (EvoDemoS) first meeting, in Odense, University of South Denmark. October 5th-10th \textbf{2013}.
+\item \textit{Climatic variability, viability selection and demography in an alpine rodent.} European Meeting of PhD Students in Evolutionary Biology (EMPSEB) 19th, at university of Exeter, U.K. September 3rd-7th \textbf{2013}.
+\item \textit{Neutral processes and cyto-nuclear discordant introgression.} Colloquium Petit Pois D\'{e}rid\'{e}, Avignon, France. August 29th \textbf{2012}.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Skills}
+%\subsection*{Scientific}
+%\begin{tabular}{p{4cm}|p{11cm}}
+%\hfill \textbf{Biology} & Evolutionary biology, population and quantitative genetics, demography.\\
+%\multicolumn{2}{c}{} \\
+%\hfill \textbf{Statistics} & Generalized Linear Mixed Models, Bayesian methods, Mark-Recapture analysis.\\
+%\multicolumn{2}{c}{} \\
+%\hfill \textbf{Mathematics} & Linear algebra, analysis, probabilities.\\
+%\end{tabular}
+
+\subsection*{IT}
+
+\begin{tabular}{p{4cm}|p{11cm}}
+\hfill \textbf{O.S} & Microsoft Windows, Linux (Ubuntu), MacOS X\\
+\multicolumn{2}{c}{} \\
+\hfill \textbf{Scripting and} & R/S4, C/C++, Bash shell, BUGS/JAGS, Matlab, \LaTeX\\
+\hfill \textbf{programming} & Some projects visible on GitHub: \\
+										& \url{https://github.com/timotheenivalis}\\
+\multicolumn{2}{c}{} \\
+\hfill \textbf{Software} & Arlequin, Genemapper, Mega, Sequencher, CLC Workbench, BioEdit, Genepop, Mark, Ucare, ArcGIS,...\\
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Teaching}
+\subsection*{}
+\begin{tabular}{p{4cm}|p{11cm}}
+\hfill \textsc{March 2015} & One hour practical in quantitative genetics\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{Feb 2015} & One day introductory course to \LaTeX\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{Jul 2014 -} \emph{current} & One Master student\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{Dec 2013} & 3 weeks supervision of a Bachelor student project\\
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Reviewing activity}
+\subsection*{}
+\begin{tabular}{p{4cm}|p{11cm}}
+\hfill \textsc{2015} & Proceedings of the Royal Society B: Biological Sciences\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{2015} & Molecular Ecology\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{2015} & Ecology and Evolution\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section*{External activities}
+%
+%\subsection*{Popular science}
+%
+%Contributions to:
+%\begin{itemize}
+%\item Dans les testicules de Darwin. (4 articles, 2013 - 2014) \\ \url{http://danslestesticulesdedarwin.blogspot.ch}
+%\item Un pied dans le plat. (1 article, 2012) \\ \url{www.unpieddansleplat.fr/menu_gauche/alimentation_sante/laitage_et_cancer.php}
+%\end{itemize}
+%
+%\subsection*{Ornithology and naturalism}
+%\begin{tabular}{p{4cm}|p{11cm}}
+%\hfill \textsc{2012 -} \emph{current} & Member of the regional rare bird comity Tarn-Aveyron\\
+															%& \url{http://www.faune-tarn-aveyron.org/index.php?m_id=20025}\\
+%\end{tabular}
+
+%\clearpage
+\vspace{20pt}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Peer-reviewed publications}
+\vspace{10pt}
+\begin{itemize}
+\item \textbf{Bonnet, T.} \& Postma E. \textit{In review}. Successful by chance? The power of mixed models and neutral simulations for the detection of individual fixed heterogeneity in fitness components. 
+\item Garc\'{i}a-Navas V., \textbf{Bonnet, T.}, Waldvogel D., Wandeler P., Camenisch G. \& Postma E. \textbf{2015}. Gene flow counteracts the effect of drift in a Swiss population of snow voles fluctuating in size. \textit{Biological Conservation} \textit{in press}.
+\item \textbf{Bonnet, T.}, Crespin, L., Pinot, A., Bruneteau, L., Bretagnolle, V. \& Gauffre, B. \textbf{2013}. How the common vole copes with modern farming: Insights from a capture-mark-recapture experiment. \textit{Agriculture, Ecosystems \& Environment} 177: 21–27.
+\item Elgvin, T.O., Hermansen, J.S., Fijarczyk, A., \textbf{Bonnet, T.}, Borge, T., S{\ae}ther, S. a, Voje, K.L. \& S{\ae}tre, G.P. \textbf{2011}. Hybrid speciation in sparrows II: a role for sex chromosomes? \textit{Molecular Ecology} 20: 3823–3837.
+\item \textbf{Bonnet, T.}, Slagsvold, P.K. \& S{\ae}tre, G.P. \textbf{2011}. Genetic species identification of a Collared Pied Flycatcher from Norway. \textit{Journal of Ornithology} 152: 1069–1073.
+\end{itemize}
+%\subsection{Peer-reviewed publications}
+%\subsection{Other publications}
+
+\end{document}

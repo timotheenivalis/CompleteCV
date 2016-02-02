@@ -3,6 +3,8 @@
 *.out
 *.synctex.gz
 main.pdf
+*.bbl
+*.blg
 
 #################
 ## Eclipse

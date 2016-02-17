@@ -5,6 +5,7 @@
 main.pdf
 *.bbl
 *.blg
+*.tcp
 
 #################
 ## Eclipse

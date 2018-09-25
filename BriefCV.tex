@@ -1,0 +1,178 @@
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{graphicx}
+
+%\usepackage{fontspec} % For loading fonts
+%\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+%\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+%\usepackage[top=1cm, bottom=1cm, left=0cm, right=2.5cm]{geometry}
+\usepackage[tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm]{geometry}
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage[official]{eurosym}%for Euro symbol
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\LARGE CV\textemdash Timoth\'{e}e \textsc{Bonnet}\par}}
+
+\section*{Personal Data}
+\subsection*{}
+\begin{tabular}{p{4cm} p{11cm}}
+\hfill \textsc{Birth date:} & November 1st 1988\\
+\hfill \textsc{Nationality:} & French\\
+\hfill \textsc{Work address:} & Department of Evolutionary Biology and Environmental Studies\\ 
+									& University of Z\"{u}rich\\
+									& Winterthurerstrasse 190\\
+									& CH-8057 Z\"{u}rich\\
+									& Switzerland \\
+\hfill \textsc{Phone:} & +41 (0)44 635 47 66\\
+\hfill \textsc{email:} & \href{mailto:timothee.bonnet@ieu.uzh.ch}{timothee.bonnet@ieu.uzh.ch}\\
+\hfill \textsc{Personal page} & \url{https://timotheenivalis.github.io//} \\
+\hfill \textsc{Languages:} & French (mother tongue), English (fluent), Spanish (basic)
+\end{tabular}
+
+\section{Research positions}
+\begin{tabular}{r|p{11cm}}
+
+\textsc{Oct 2016 - Current} & \textbf{Post-doctoral position, University of Zurich Forschungkredit.}\\
+								& \emph{Demographic impact of genetic adaptation.}\\ 
+								& \footnotesize{Collaboration with Arpat Ozgul and Erik Postma.}\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+
+\section{Education}
+\begin{tabular}{r|p{11cm}}
+\textsc{Oct 2012 - Sep 2016} & \textbf{PhD student in Z\"{u}rich evolutionary biology PhD program.}\\
+								& \emph{Individual-level causes and population-level consequences of variation in fitness in an alpine rodent.}\\ 
+								& \footnotesize{Under the supervision of Erik Postma.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Sep 2011 - Jun 2012} & \textbf{M.Sc. in evolutionary biology and ecology. University Montpellier II, France.}\\
+\textit{Research project:} & \emph{Neutral processes and biased mitochondrial introgression} at the center for population biology and management (CBGP).\\
+& \footnotesize{Supervised by Drs Rapha\"{e}l Leblois, Pierre-Andr\'{e} Crochet and Fran\c{c}ois Rousset.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Sep 2008 - Sep 2011} & \textbf{B.Sc Biology: National engineering school in biology and agronomy, Montpellier Supagro, France.}\\
+& \footnotesize{Specializations in biodiversity conservation, ecology, population genetics, GIS.}\\
+\textit{Research projects:} & \\
+\footnotesize{\textsc{Jan-Aug 2011}}& \emph{Population dynamics of rodents, and agricultural practices}. Chiz\'{e} Centre for Biological Studies (CEBC), France.\\ 
+																		& \footnotesize{Supervised by Drs Bertrand Gauffre and Vincent Bretagnolle.} \par \\
+\footnotesize{\textsc{Sep-Dec 2010}}&	\emph{Genetic identification, speciation, hybridization and role of gonosomes in flycatchers and sparrows}. Centre for Ecological and Evolutionary Synthesis in Oslo, Norway.\\
+																		& \footnotesize{Supervised by Prof. Glenn-Peter S{\ae}tre.}\par \\
+\footnotesize{\textsc{May-Aug 2010}}& \emph{Meadow birds phenology, conservation and agriculture} at LPO (Birdlife international), in Grenoble, France.
+\end{tabular}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Skills}
+\subsection*{Scientific}
+\begin{tabular}{p{4cm}|p{11cm}}
+\hfill \textbf{Biology} & Evolutionary biology, population and quantitative genetics, demography.\\
+\multicolumn{2}{c}{} \\
+\hfill \textbf{Statistics} & Generalized Linear Mixed Models, Bayesian methods, Mark-Recapture analysis.\\
+\multicolumn{2}{c}{} \\
+\hfill \textbf{Mathematics} & Linear algebra, analysis, probabilities.\\
+\end{tabular}
+
+\subsection*{IT}
+
+\begin{tabular}{p{4cm}|p{11cm}}
+\hfill \textbf{O.S} & Microsoft Windows, Linux (Ubuntu), MacOS X\\
+\multicolumn{2}{c}{} \\
+\hfill \textbf{Scripting and} & R/S4, C/C++, Bash shell, BUGS/JAGS, Matlab, \LaTeX\\
+\hfill \textbf{programming} & Some projects visible on GitHub: \\
+										& \url{https://github.com/timotheenivalis}\\
+\multicolumn{2}{c}{} \\
+\hfill \textbf{Software} & Arlequin, Genemapper, Mega, Sequencher, CLC Workbench, BioEdit, Genepop, Mark, Ucare, ArcGIS,...\\
+\end{tabular}
+
+\subsection*{Miscelaneous}
+\begin{tabular}{p{4cm}|p{11cm}}
+\hfill February 2013 & Far from help first aid course (2 days)\\
+\end{tabular}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Teaching}
+\subsection*{}
+\begin{tabular}{p{4cm}|p{11cm}}
+\hfill \textsc{Aug 2016} & Two weeks teaching assistant for Keller's and Manser's field course, Bia{\l}owie$\dot{\mathrm{z}}$a Forest, Poland\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{Mar 2016} & Ten afternoons of practicals in Ozgul's population ecology \\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{Mar 2015} & One hour practical in Postma's intro to quantitative genetics\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{Feb 2015} & One day introductory course to \LaTeX (self-organized)\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{Jul 2014 - Dec 2015} & One Master student\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{Dec 2013} & 3 weeks supervision of a Bachelor student project\\
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Reviewing activity}
+\subsection*{Journals}
+Publons merit: 21 (\url{https://publons.com/a/822275/})
+\begin{table}[h]
+\begin{tabular}{p{4cm}|p{11cm}}
+\hfill \textsc{2015-2016} & Evolution\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{2015-2016} & Molecular Ecology\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{2016} & Heredity\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{2015} & Proceedings of the Royal Society B: Biological Sciences\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{2015} & Ecology and Evolution\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+\end{table}
+
+\subsection*{Conferences}
+\begin{tabular}{p{4cm}|p{11cm}}
+\hfill \textsc{2016} & Jury member for biodiversity and conservation at YNHM 16, Paris\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section*{Competitive funding}
+\subsection*{}
+\begin{tabular}{p{4cm}|p{11cm}}
+\hfill \textsc{2016} & One year post-doc from UZH Forschungkredit (108,639CHF)\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{2016} & Fieldwork grant from the Georges and Antoine Claraz-Donation ($770$CHF)\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{2016} & Travel grant to attend the 3rd Young Natural History Scientists Meeting, Paris, France ($150$CHF)\\
+\multicolumn{2}{c}{} \\
+\hfill \textsc{2012} & PhD fellowship at IEU UZH\\
+\multicolumn{2}{c}{} \\
+\end{tabular}
+
+\end{document}
